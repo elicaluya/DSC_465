@@ -7,4 +7,4 @@ InfantData1 <- read.csv("C:/Users/elica/Desktop/depaul_grad/DSC_465/InfantData1.
 ggplot(data=InfantData1, aes(x=HeightIn, y=WeightLbs, color=Sex)) + geom_point()
 
 # B) Graph for separate trend lines
-ggplot(data=InfantData1, aes(x=HeightIn, y=WeightLbs, color=Sex)) + geom_line(aes(size=HeightIn))
+ggplot(data=InfantData1, aes(x=HeightIn, y=WeightLbs, color=Sex)) + geom_line() + geom_point()
